@@ -1041,6 +1041,7 @@
       'isCopilotEnabled',
       'isDedicated',
       'isEngineOn',
+      'isEqualType',
       'isEqualTo',
       'isFlashlightOn',
       'isFlatEmpty',
@@ -1471,6 +1472,7 @@
       'serverCommand',
       'serverCommandAvailable',
       'serverTime',
+      'serverName',
       'set',
       'setAccTime',
       'setAirportSide',
@@ -1978,7 +1980,12 @@
       'setToneMapping',
       'setToneMappingParams',
       'setVehicleInit',
-      'setWeaponState'
+      'setWeaponState',
+      
+       # Aecy
+       'params',
+       'remoteExec',
+       'remoteExecCall',
     ]
 
 '.source.sqf .string.quoted':
